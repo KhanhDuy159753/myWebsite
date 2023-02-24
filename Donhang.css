@@ -98,6 +98,31 @@ header ul li:nth-child(5) button{
 header ul li:nth-child(5) i{
     font-size: 22px ;
 }
+.container ul ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    box-shadow: 0 0 1px grey;
+}
+.container ul ul a {
+    font-size: larger;
+    padding: 0 10px;
+}
+.container ul ul li{
+    border-bottom: 1px solid yellow;
+    background-color: #009f55;
+    border-radius: 3px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
 
 /* nav */
 nav{
