@@ -272,6 +272,7 @@ section .buy{
 }
 /* article */
 article{
+    background-color: #FFFFFF;
     float: left;
     margin-left: 280px;
     width: 980px;
